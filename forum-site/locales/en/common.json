@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Strategic Finance Forum & Gala",
+    "description": "Executive forum bringing institutional leaders, strategic partners, and media voices together in Sofia."
+  },
+  "nav": {
+    "about": "About",
+    "program": "Program",
+    "speakers": "Speakers",
+    "media": "Multimedia",
+    "partners": "Partners",
+    "team": "Team",
+    "history": "History",
+    "collaboration": "Collaboration",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "May 21 • Hyatt Regency Sofia",
+    "title": "Strategic Finance Forum & Gala",
+    "subtitle": "A premium gathering for C-suite executives, institutional partners, and media stakeholders shaping regional capital markets.",
+    "cta": "View Program"
+  },
+  "about": {
+    "title": "About the Forum",
+    "body": "The Strategic Finance Forum & Gala convenes leaders from banking, investment, policy, and academia to discuss capital access, economic resilience, and high-impact partnerships. The event is built for decision-makers who influence financial strategy at national and international levels."
+  },
+  "program": {
+    "title": "Program",
+    "subtitle": "A focused executive agenda designed for practical outcomes and strategic exchange.",
+    "items": [
+      { "time": "09:00", "title": "Executive Reception & Opening Remarks", "speakers": "C4BG Board" },
+      { "time": "10:00", "title": "Capital Flows and Market Confidence", "speakers": "Institutional Investors Panel" },
+      { "time": "11:30", "title": "Policy, Regulation, and Innovation", "speakers": "Government & Regulatory Leaders" },
+      { "time": "14:00", "title": "Financing Growth in Southeast Europe", "speakers": "Prof. Stanislav Gyoshev & Partners" },
+      { "time": "18:30", "title": "Strategic Finance Gala", "speakers": "Executive Guests & Media" }
+    ]
+  },
+  "speakers": {
+    "title": "Featured Speakers",
+    "subtitle": "Leaders in finance, academia, and policy.",
+    "list": [
+      {
+        "name": "Prof. Stanislav Gyoshev",
+        "role": "Chair, Faculty of Economics and Business Administration",
+        "bio": "Professor Gyoshev leads regional dialogue on strategic finance, institutional cooperation, and sustainable market development.",
+        "image": "/images/speakers/gyoshev.svg"
+      },
+      {
+        "name": "Elena Petrova",
+        "role": "Managing Director, Southeast Capital Partners",
+        "bio": "Elena advises institutional clients on cross-border growth strategies and investment frameworks.",
+        "image": "/images/speakers/elena.svg"
+      },
+      {
+        "name": "Daniel Marinov",
+        "role": "Chief Economist, Balkan Investment Group",
+        "bio": "Daniel specializes in macroeconomic risk, liquidity cycles, and market confidence indicators.",
+        "image": "/images/speakers/daniel.svg"
+      }
+    ]
+  },
+  "media": {
+    "title": "Multimedia",
+    "subtitle": "Selected interviews with Prof. Stanislav Gyoshev."
+  },
+  "partners": {
+    "title": "Media Partners",
+    "subtitle": "Strategic media institutions supporting visibility and public dialogue.",
+    "list": [
+      { "name": "Bloomberg", "logo": "/images/partners/bloomberg.svg" },
+      { "name": "Bulgaria On Air", "logo": "/images/partners/bulgaria-on-air.svg" }
+    ]
+  },
+  "team": {
+    "title": "Board and Organizing Team",
+    "subtitle": "The Board of C4BG with dedicated executive leadership.",
+    "members": [
+      { "name": "Prof. Stanislav Gyoshev", "role": "Board Chair", "highlight": true },
+      { "name": "Mariya Ivanova", "role": "Program Director" },
+      { "name": "Georgi Nikolov", "role": "Partnerships Lead" },
+      { "name": "Iveta Ruseva", "role": "Media Relations" }
+    ]
+  },
+  "history": {
+    "title": "C4BG Event Highlights",
+    "subtitle": "Selected milestones from the past year.",
+    "items": [
+      { "year": "2025", "title": "Regional Capital Forum", "description": "Focused sessions on investment readiness and sovereign risk management." },
+      { "year": "2025", "title": "Institutional Partnership Roundtable", "description": "Framework agreements between academic and private-sector stakeholders." },
+      { "year": "2026", "title": "Pre-Gala Strategy Briefing", "description": "Executive workshop on growth financing and cross-border collaboration." }
+    ]
+  },
+  "collaboration": {
+    "title": "Collaboration",
+    "text": "C4BG acts as an institutional bridge among academia, corporate leadership, policy experts, and media. Through this forum, partners align around practical initiatives that strengthen the financial ecosystem and elevate regional competitiveness."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "For institutional partnerships and media inquiries, use the form below or contact us directly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "fallback": "Direct email: office@c4bg.org"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

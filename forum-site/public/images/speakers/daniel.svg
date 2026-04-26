@@ -1,0 +1,6 @@
+<svg width="800" height="560" viewBox="0 0 800 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="560" fill="#1A1A1D"/>
+  <circle cx="400" cy="210" r="92" fill="#38383F"/>
+  <rect x="250" y="320" width="300" height="170" rx="30" fill="#38383F"/>
+  <text x="400" y="520" text-anchor="middle" fill="#C6A85C" font-family="Arial, sans-serif" font-size="34">Daniel Marinov</text>
+</svg>
