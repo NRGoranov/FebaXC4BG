@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Leftover from older layout (delete local `forum-site` after tools release file locks)
+/forum-site/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
