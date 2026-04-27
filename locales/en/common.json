@@ -1,102 +1,163 @@
 {
   "meta": {
-    "title": "Strategic Finance Forum & Gala",
-    "description": "Executive forum bringing institutional leaders, strategic partners, and media voices together in Sofia."
+    "title": "Strategic Finance Forum & Gala | Digital Flagship",
+    "description": "Asset resilience in a volatile economy — an executive forum where academia, banking, and institutional finance shape the next generation of capital allocation. Sofia, May 2026."
   },
   "nav": {
-    "about": "About",
-    "program": "Program",
-    "speakers": "Speakers",
+    "brand": "Strategic Finance Forum",
+    "facultyTagline": "Faculty of Economics and Business Administration (FEBA)",
+    "about": "Why It Matters",
+    "themes": "Strategic Themes",
+    "program": "Executive Agenda",
+    "speakers": "Voices in Tension",
     "media": "Multimedia",
+    "ecosystem": "C4BG Ecosystem",
+    "partnerships": "Quant Partnerships",
     "partners": "Partners",
-    "team": "Team",
-    "history": "History",
-    "collaboration": "Collaboration",
-    "contact": "Contact"
+    "team": "Founders",
+    "history": "Track Record",
+    "future": "Beyond 2026",
+    "contact": "Invitations"
   },
   "hero": {
-    "badge": "May 21 • Hyatt Regency Sofia",
+    "badge": "May 21, 2026 • Hyatt Regency Sofia",
+    "themeLine": "Asset Resilience in a Volatile Economy",
     "title": "Strategic Finance Forum & Gala",
-    "subtitle": "A premium gathering for C-suite executives, institutional partners, and media stakeholders shaping regional capital markets.",
-    "cta": "View Program"
+    "subtitle": "The digital flagship for an elite strategic dialogue — where capital, regulation, research, and innovation meet. Not a conventional conference: a Quadruple Helix convening for C-suite banking, policymakers, scholars, and corporate innovators redefining how institutions price uncertainty and build resilience.",
+    "cta": "Executive Agenda"
   },
   "about": {
-    "title": "About the Forum",
-    "body": "The Strategic Finance Forum & Gala convenes leaders from banking, investment, policy, and academia to discuss capital access, economic resilience, and high-impact partnerships. The event is built for decision-makers who influence financial strategy at national and international levels."
+    "title": "Why This Forum Matters",
+    "body": "Volatility is not merely a risk to mitigate — it is information to price. This forum treats uncertainty as an input to strategic choice: real options, dynamic risk frameworks, and adaptive capital allocation under stress. It is where theory meets implementation — from static equilibrium models toward institutions that thrive when regimes shift. Participants operate at the intersection of academic rigor, institutional finance, geopolitical strategy, and banking innovation — the caliber of discourse associated with premier executive summits and private capital fora."
+  },
+  "themes": {
+    "title": "Strategic Themes",
+    "subtitle": "Conceptual anchors for dialogue — volatility as an asset class, resilience as a balance-sheet discipline, and finance for the green transition.",
+    "items": [
+      {
+        "title": "Volatility as Strategic Input",
+        "description": "Pricing uncertainty rather than fearing it — real options logic, convexity, and hedging under radical unknowns."
+      },
+      {
+        "title": "Dynamic Risk & Resilience",
+        "description": "From static VaR-like snapshots to adaptive frameworks that stress capital, liquidity, and institutional capability in parallel."
+      },
+      {
+        "title": "Green Transition Finance",
+        "description": "Channeling institutional capital toward transition assets without diluting fiduciary rigor — policy, disclosure, and market design."
+      },
+      {
+        "title": "Where Theory Meets Implementation",
+        "description": "Closing the gap between frontier research and trading rooms, treasury functions, and supervisory practice."
+      }
+    ]
   },
   "program": {
-    "title": "Program",
-    "subtitle": "A focused executive agenda designed for practical outcomes and strategic exchange.",
+    "title": "Executive Agenda",
+    "subtitle": "A disciplined day built for decision-makers — strategic exchange, not spectacle.",
     "items": [
-      { "time": "09:00", "title": "Executive Reception & Opening Remarks", "speakers": "C4BG Board" },
-      { "time": "10:00", "title": "Capital Flows and Market Confidence", "speakers": "Institutional Investors Panel" },
-      { "time": "11:30", "title": "Policy, Regulation, and Innovation", "speakers": "Government & Regulatory Leaders" },
-      { "time": "14:00", "title": "Financing Growth in Southeast Europe", "speakers": "Prof. Stanislav Gyoshev & Partners" },
-      { "time": "18:30", "title": "Strategic Finance Gala", "speakers": "Executive Guests & Media" }
+      { "time": "09:00", "title": "Executive Reception & Opening Framing", "speakers": "Host institutions — Quadruple Helix welcome" },
+      { "time": "10:00", "title": "Institutional Liquidity & Confidence in Stress Regimes", "speakers": "Banking leadership & markets" },
+      { "time": "11:30", "title": "Regulation, Supervision & Innovation — Strategic Interface", "speakers": "Policy, regulatory, and innovation leaders" },
+      { "time": "14:00", "title": "Southeast Europe — Growth Financing & Cross-Border Resilience", "speakers": "Scholars and strategic partners" },
+      { "time": "18:30", "title": "Strategic Finance Gala", "speakers": "Executive guests, institutional hosts, selected media" }
     ]
   },
   "speakers": {
-    "title": "Featured Speakers",
-    "subtitle": "Leaders in finance, academia, and policy.",
+    "title": "Voices in Strategic Tension",
+    "subtitle": "Intellectual actors in dialogue — editorial roles, not mere speaker slots.",
     "list": [
       {
+        "archetype": "The Architect",
         "name": "Prof. Stanislav Gyoshev",
         "role": "Chair, Faculty of Economics and Business Administration",
-        "bio": "Professor Gyoshev leads regional dialogue on strategic finance, institutional cooperation, and sustainable market development.",
+        "bio": "Frames the institutional grammar of the forum — where academic authority meets executive expectation and long-horizon market design.",
         "image": "/images/speakers/gyoshev.svg"
       },
       {
+        "archetype": "The Disruptor",
         "name": "Elena Petrova",
         "role": "Managing Director, Southeast Capital Partners",
-        "bio": "Elena advises institutional clients on cross-border growth strategies and investment frameworks.",
+        "bio": "Stress-tests consensus on growth and allocation — cross-border mandates, institutional discipline, and the politics of capital.",
         "image": "/images/speakers/elena.svg"
       },
       {
+        "archetype": "The Guardian of Stability",
         "name": "Daniel Marinov",
         "role": "Chief Economist, Balkan Investment Group",
-        "bio": "Daniel specializes in macroeconomic risk, liquidity cycles, and market confidence indicators.",
+        "bio": "Grounds debate in macro transmission, liquidity cycles, and the early signals that separate noise from regime change.",
         "image": "/images/speakers/daniel.svg"
       }
     ]
   },
   "media": {
     "title": "Multimedia",
-    "subtitle": "Selected interviews with Prof. Stanislav Gyoshev."
+    "subtitle": "Selected broadcast and long-form dialogue — extending the forum’s ideas into public and specialist channels.",
+    "featuredArticle": {
+      "description": "BNR News — financial architecture of the future: resilience, derivatives, and the institutional design of tomorrow’s markets.",
+      "label": "Listen & read — BNR News",
+      "url": "https://bnrnews.bg/hristobotev/post/459192/finansovata-arhitektura-na-badeshteto"
+    },
+    "videoTitle": "Strategic finance — selected video"
+  },
+  "ecosystem": {
+    "title": "Building Financial Innovation Ecosystems",
+    "subtitle": "C4BG as strategic convener",
+    "body": "C4BG operates as more than a host logo: it is an institutional partner and innovation ecosystem builder — bridging doctoral-level research with boardroom execution. The Strategic Finance Forum is one surface of that work: a venue where banking C-suites, regulators, scholars, and corporate innovators execute the Quadruple Helix in practice — converging capital, oversight, inquiry, and applied innovation."
+  },
+  "partnerships": {
+    "title": "Strategic Quantitative Partnerships",
+    "subtitle": "Flagship research collaboration — elevate the site from a single date to an enduring platform.",
+    "body": "Corporate PhD pathways, R&D-as-a-service, and applied quantitative innovation with real-world data and academic rigor. Partners gain structured access to frontier methods — stochastic modeling, empirical asset pricing, and institutional design — aligned to live business and policy questions rather than abstract exercises."
   },
   "partners": {
-    "title": "Media Partners",
-    "subtitle": "Strategic media institutions supporting visibility and public dialogue.",
+    "title": "Partners & Institutions",
+    "subtitle": "Media and institutional collaborators extending the forum’s reach and transparency.",
     "list": [
       { "name": "Bloomberg", "logo": "/images/partners/bloomberg.svg" },
       { "name": "Bulgaria On Air", "logo": "/images/partners/bulgaria-on-air.svg" }
     ]
   },
   "team": {
-    "title": "Board and Organizing Team",
-    "subtitle": "The Board of C4BG with dedicated executive leadership.",
+    "title": "Founders",
+    "subtitle": "Board of Directors — The Square",
+    "boardNote": "",
     "members": [
-      { "name": "Prof. Stanislav Gyoshev", "role": "Board Chair", "highlight": true },
-      { "name": "Mariya Ivanova", "role": "Program Director" },
-      { "name": "Georgi Nikolov", "role": "Partnerships Lead" },
-      { "name": "Iveta Ruseva", "role": "Media Relations" }
+      { "name": "Christo Pirinsky", "role": "Ph.D., Ohio State University | Professor of Finance, Director of the FinTech Program, University of Central Florida, USA" },
+      { "name": "Emilia Zankina", "role": "Ph.D., University of Pittsburgh | Vice Provost of International Affairs, Temple University, Philadelphia and Dean Rome Campus, Italy" },
+      { "name": "Ivan Manev", "role": "Ph.D., Boston College | John M. Murphy Professor of Management, University of Maine, USA" },
+      { "name": "Lubomir Litov", "role": "Ph.D., New York University | David M. Moffett Professor of Corporate Finance & Associate Professor of Law, University of Oklahoma, USA" },
+      { "name": "Mirena Legurska", "role": "Associate Professor, Civic Education & Digital Technologies, Sofia University" },
+      { "name": "Petar Stoykov", "role": "MSc, London School of Economics | Business Development & Commercial Strategy, Glovo, Sofia" },
+      { "name": "Petar Veselinov Petrov", "role": "Ph.D., Sofia University & University of London | Assistant Professor, Sofia University" },
+      { "name": "Stanley Gyoshev", "role": "Ph.D., Drexel University | Director MSc programmes in Finance and Management, Xfi Centre for Finance and Investments, University of Exeter Business School, UK" }
     ]
   },
   "history": {
-    "title": "C4BG Event Highlights",
-    "subtitle": "Selected milestones from the past year.",
+    "title": "The Square — Event Highlights",
+    "subtitle": "Milestones from The Square programme — executive convening with institutional depth.",
+    "coOrgLead": "Co-organized with ",
+    "coOrgLinkLabel": "C4BG",
+    "coOrgHref": "https://c4bg.org",
     "items": [
-      { "year": "2025", "title": "Regional Capital Forum", "description": "Focused sessions on investment readiness and sovereign risk management." },
-      { "year": "2025", "title": "Institutional Partnership Roundtable", "description": "Framework agreements between academic and private-sector stakeholders." },
-      { "year": "2026", "title": "Pre-Gala Strategy Briefing", "description": "Executive workshop on growth financing and cross-border collaboration." }
+      { "year": "2025", "title": "Regional Capital Forum", "description": "Sessions on investment readiness and sovereign stress — bridging buy-side discipline with regional policy realities." },
+      { "year": "2025", "title": "Institutional Partnership Roundtable", "description": "Framework agreements aligning academic inquiry with private-sector execution capacity." },
+      { "year": "2026", "title": "Pre-Forum Strategy Briefing", "description": "Executive working session on growth financing, cross-border collaboration, and resilience under regime uncertainty." }
     ]
   },
-  "collaboration": {
-    "title": "Collaboration",
-    "text": "C4BG acts as an institutional bridge among academia, corporate leadership, policy experts, and media. Through this forum, partners align around practical initiatives that strengthen the financial ecosystem and elevate regional competitiveness."
+  "future": {
+    "title": "Beyond 2026",
+    "subtitle": "An enduring strategic platform — not a single evening in May.",
+    "body": "The Strategic Finance Forum anchors a forward calendar: deepening corporate PhD and quantitative partnerships, preparing the Joint Academic and Finance Forum (JAAF) horizon, and serial convening that sustains Quadruple Helix dialogue across election cycles and market regimes.",
+    "items": [
+      { "label": "Strategic Finance Forum", "detail": "Annual executive anchor — asset resilience, institutional design, gala-level convening." },
+      { "label": "JAAF 2027", "detail": "Academic–finance summit on the horizon — scholarly depth with market-facing relevance." },
+      { "label": "Corporate PhD & quant partnerships", "detail": "R&D-as-a-service and doctoral pathways tied to live institutional problems." }
+    ]
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "For institutional partnerships and media inquiries, use the form below or contact us directly.",
+    "title": "Invitations & Inquiries",
+    "subtitle": "Institutional partnerships, participation, and media — discrete, high-trust correspondence.",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -106,6 +167,6 @@
     "fallback": "Direct email: office@c4bg.org"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "Strategic Finance Forum platform. All rights reserved."
   }
 }
