@@ -11,9 +11,11 @@ type NavItem = { id: string; label: string };
 type Props = {
   locale: Locale;
   items: NavItem[];
+  brand: string;
+  facultyTagline: string;
 };
 
-export function StickyNav({ locale, items }: Props) {
+export function StickyNav({ locale, items, brand, facultyTagline }: Props) {
   const [active, setActive] = useState(items[0]?.id);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -63,39 +65,51 @@ export function StickyNav({ locale, items }: Props) {
   return (
     <>
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4 sm:px-10 lg:px-16">
-          <div className="flex items-center gap-4 text-sm">
-            <a href="#top" className="font-serif text-accent transition hover:text-[#d6ba73]">
-              C4BG
-            </a>
-            <span className="hidden text-muted sm:inline">Стопански факултет (ФЕБА)</span>
-          </div>
+        <div className="mx-auto max-w-7xl px-6 py-3 sm:px-10 lg:px-16">
+          <div className="flex flex-col gap-3 lg:gap-3">
+            {/* Row 1: site identity always visible — never competes with nav width */}
+            <div className="flex items-start justify-between gap-6">
+              <div className="flex min-w-0 flex-col gap-1 text-sm sm:flex-row sm:items-baseline sm:gap-x-5 sm:gap-y-0">
+                <a
+                  href="#top"
+                  className="shrink-0 font-serif text-base text-accent transition hover:text-[#d6ba73] sm:text-lg"
+                >
+                  {brand}
+                </a>
+                <span className="max-w-full text-muted sm:max-w-[min(28rem,calc(100vw-10rem))] sm:text-sm lg:max-w-none">
+                  {facultyTagline}
+                </span>
+              </div>
 
-          <nav className="hidden gap-5 text-sm text-muted lg:flex">
-            {items.map((item) => (
-              <a
-                key={item.id}
-                href={`#${item.id}`}
-                className={`transition hover:text-accent ${
-                  active === item.id ? "text-accent" : ""
-                }`}
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
+              <div className="flex shrink-0 items-center gap-3 pt-0.5">
+                <LanguageSwitcher locale={locale} />
+                <button
+                  type="button"
+                  aria-label="Open navigation menu"
+                  aria-expanded={isMenuOpen}
+                  onClick={() => setIsMenuOpen((prev) => !prev)}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-foreground transition hover:border-accent hover:text-accent lg:hidden"
+                >
+                  <span className="text-lg leading-none">≡</span>
+                </button>
+              </div>
+            </div>
 
-          <div className="flex items-center gap-3">
-            <LanguageSwitcher locale={locale} />
-            <button
-              type="button"
-              aria-label="Open navigation menu"
-              aria-expanded={isMenuOpen}
-              onClick={() => setIsMenuOpen((prev) => !prev)}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-foreground transition hover:border-accent hover:text-accent lg:hidden"
+            {/* Row 2: two balanced rows of links (6 × 2) — desktop only */}
+            <nav
+              aria-label="Primary"
+              className="hidden w-full border-t border-white/10 pt-3 text-[0.72rem] leading-snug text-muted lg:grid lg:grid-cols-6 lg:gap-x-4 lg:gap-y-2.5 lg:text-[0.8rem] xl:text-sm"
             >
-              <span className="text-lg leading-none">≡</span>
-            </button>
+              {items.map((item) => (
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  className={`block text-center transition hover:text-accent xl:px-1 ${active === item.id ? "text-accent" : ""}`}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </nav>
           </div>
         </div>
       </header>
@@ -117,7 +131,7 @@ export function StickyNav({ locale, items }: Props) {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.25, ease: "easeInOut" }}
-              className="fixed top-0 right-0 z-50 flex h-screen w-[82%] max-w-sm flex-col gap-3 border-l border-white/10 bg-[#0d0d10] px-6 pt-24 pb-8 lg:hidden"
+              className="fixed top-0 right-0 z-50 flex h-screen w-[82%] max-w-sm flex-col gap-3 overflow-y-auto border-l border-white/10 bg-[#0d0d10] px-6 pt-24 pb-8 lg:hidden"
             >
               <button
                 type="button"

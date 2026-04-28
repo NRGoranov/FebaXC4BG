@@ -47,10 +47,15 @@ export function EventLanding({ locale, dictionary }: Props) {
 
   return (
     <main id="top" className="bg-background pt-20 text-foreground">
-      <StickyNav locale={locale} items={navItems} />
+      <StickyNav
+        locale={locale}
+        items={navItems}
+        brand={dictionary.nav.brand}
+        facultyTagline={dictionary.nav.facultyTagline}
+      />
 
       <section className="relative overflow-hidden border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(198,168,92,0.2),_transparent_42%),linear-gradient(120deg,_rgba(255,255,255,0.06),_transparent_38%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(198,168,92,0.2),transparent_42%),linear-gradient(120deg,rgba(255,255,255,0.06),transparent_38%)]" />
         <div className="section-shell relative py-28 sm:py-36">
           <motion.p
             initial="hidden"

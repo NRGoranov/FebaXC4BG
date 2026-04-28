@@ -34,7 +34,19 @@ type HistoryItem = {
 
 export type Dictionary = {
   meta: { title: string; description: string };
-  nav: { about: string; program: string; speakers: string; media: string; partners: string; team: string; history: string; collaboration: string; contact: string };
+  nav: {
+    brand: string;
+    facultyTagline: string;
+    about: string;
+    program: string;
+    speakers: string;
+    media: string;
+    partners: string;
+    team: string;
+    history: string;
+    collaboration: string;
+    contact: string;
+  };
   hero: { badge: string; title: string; subtitle: string; cta: string };
   about: { title: string; body: string };
   program: { title: string; subtitle: string; items: ProgramItem[] };
