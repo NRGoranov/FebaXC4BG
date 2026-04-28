@@ -59,5 +59,5 @@ const dictionaries = {
 };
 
 export const getDictionary = async (locale: Locale): Promise<Dictionary> => {
-  return dictionaries[locale]() as Promise<Dictionary>;
+  return dictionaries[locale]() as unknown as Promise<Dictionary>;
 };
