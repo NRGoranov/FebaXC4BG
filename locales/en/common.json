@@ -17,6 +17,7 @@
     "team": "Founders",
     "history": "Track Record",
     "future": "Beyond 2026",
+    "collaboration": "Collaboration",
     "contact": "Invitations"
   },
   "hero": {
@@ -154,6 +155,10 @@
       { "label": "JAAF 2027", "detail": "Academic–finance summit on the horizon — scholarly depth with market-facing relevance." },
       { "label": "Corporate PhD & quant partnerships", "detail": "R&D-as-a-service and doctoral pathways tied to live institutional problems." }
     ]
+  },
+  "collaboration": {
+    "title": "Collaboration",
+    "text": "C4BG serves as an institutional bridge across academia, corporate leadership, policy experts, and media. The forum is designed to translate research-grade ideas into actionable partnerships and durable collaboration."
   },
   "contact": {
     "title": "Invitations & Inquiries",
